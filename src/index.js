@@ -9,10 +9,9 @@ const getUserName = () => {
 
 export const gameStart = (descriptionOfGame, data) => {
   console.log('Welcome to the Brain Games!');
-  console.log(descriptionOfGame);
-
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
+  console.log(descriptionOfGame);
 
   for (let i = 0; i < countOfCorrectAnswers; i += 1) {
     const { question, correctAnswer } = data();

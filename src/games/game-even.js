@@ -1,4 +1,4 @@
-import { gameStart } from './index.js';
+import { gameStart } from '../index.js';
 
 const randomiser = (min, max) => Math.floor(Math.random() * max) + min;
 

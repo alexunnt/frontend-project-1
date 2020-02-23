@@ -18,3 +18,9 @@
 >`$ brain-calc
 
 `[![asciicast](https://asciinema.org/a/MPYhBiuMhVYrci1uK2yp7F1QO.svg)](https://asciinema.org/a/MPYhBiuMhVYrci1uK2yp7F1QO)
+
+**Game "Brain GCD"**
+
+>`$ brain-gcd
+
+[![asciicast](https://asciinema.org/a/ETlNduQMAvRa7v2RWSDT2pB5L.svg)](https://asciinema.org/a/ETlNduQMAvRa7v2RWSDT2pB5L)

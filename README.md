@@ -24,3 +24,10 @@
 >`$ brain-gcd
 
 [![asciicast](https://asciinema.org/a/ETlNduQMAvRa7v2RWSDT2pB5L.svg)](https://asciinema.org/a/ETlNduQMAvRa7v2RWSDT2pB5L)
+
+**Game "Brain Progression"**
+
+>`$ brain-progression
+
+[![asciicast](https://asciinema.org/a/S3SJ2Ot8YjAbim2LPuip6pN8D.svg)](https://asciinema.org/a/S3SJ2Ot8YjAbim2LPuip6pN8D)
+

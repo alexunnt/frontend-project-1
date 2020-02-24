@@ -15,19 +15,19 @@
 
 **Game "Brain Calc"**
 
->`$ brain-calc
+>`$ brain-calc`
 
 `[![asciicast](https://asciinema.org/a/MPYhBiuMhVYrci1uK2yp7F1QO.svg)](https://asciinema.org/a/MPYhBiuMhVYrci1uK2yp7F1QO)
 
 **Game "Brain GCD"**
 
->`$ brain-gcd
+>`$ brain-gcd`
 
 [![asciicast](https://asciinema.org/a/ETlNduQMAvRa7v2RWSDT2pB5L.svg)](https://asciinema.org/a/ETlNduQMAvRa7v2RWSDT2pB5L)
 
 **Game "Brain Progression"**
 
->`$ brain-progression
+>`$ brain-progression`
 
 [![asciicast](https://asciinema.org/a/S3SJ2Ot8YjAbim2LPuip6pN8D.svg)](https://asciinema.org/a/S3SJ2Ot8YjAbim2LPuip6pN8D)
 

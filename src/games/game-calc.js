@@ -1,6 +1,5 @@
-import { gameStart } from '../index.js';
-
-const randomiser = (min, max) => Math.floor(Math.random() * max) + min;
+import gameStart from '../index.js';
+import randomiser from '../utils.js';
 
 const descriptionOfGame = 'What is the result of the expression?';
 const operators = ['+', '-', '*', '/'];
@@ -27,8 +26,8 @@ const data = () => {
   };
 };
 
-const brainCalc = () => {
+const runBrainCalc = () => {
   gameStart(descriptionOfGame, data);
 };
 
-export default brainCalc;
+export default runBrainCalc;

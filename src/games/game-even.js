@@ -1,6 +1,5 @@
-import { gameStart } from '../index.js';
-
-const randomiser = (min, max) => Math.floor(Math.random() * max) + min;
+import gameStart from '../index.js';
+import randomiser from '../utils.js';
 
 const isEven = (number) => (number % 2 === 0);
 
@@ -18,8 +17,8 @@ const data = () => {
   };
 };
 
-const brainEven = () => {
+const runBrainEven = () => {
   gameStart(descriptionOfGame, data);
 };
 
-export default brainEven;
+export default runBrainEven;

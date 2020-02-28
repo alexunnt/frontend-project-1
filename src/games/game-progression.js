@@ -1,6 +1,5 @@
-import { gameStart } from '../index.js';
-
-const randomiser = (min, max) => Math.floor(Math.random() * max) + min;
+import gameStart from '../index.js';
+import randomiser from '../utils.js';
 
 const descriptionOfGame = 'What number is missing in the progression?';
 const min = 1;
@@ -27,8 +26,8 @@ const data = () => {
   };
 };
 
-const brainProgression = () => {
+const runBrainProgression = () => {
   gameStart(descriptionOfGame, data);
 };
 
-export default brainProgression;
+export default runBrainProgression;

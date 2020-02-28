@@ -35,4 +35,4 @@
 
 >`$ brain-prime`
 
-[![asciicast](https://asciinema.org/a/gn988HUYUv0te7dRTxYyeSSeN.svg)](https://asciinema.org/a/gn988HUYUv0te7dRTxYyeSSeN)
+[![asciicast](https://asciinema.org/a/wQRy7pE2Ko3vyKjttzztUABRC.svg)](https://asciinema.org/a/wQRy7pE2Ko3vyKjttzztUABRC)

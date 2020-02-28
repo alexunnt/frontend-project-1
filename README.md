@@ -31,3 +31,8 @@
 
 [![asciicast](https://asciinema.org/a/S3SJ2Ot8YjAbim2LPuip6pN8D.svg)](https://asciinema.org/a/S3SJ2Ot8YjAbim2LPuip6pN8D)
 
+**Game "Brain Prime"**
+
+>`$ brain-prime`
+
+[![asciicast](https://asciinema.org/a/gn988HUYUv0te7dRTxYyeSSeN.svg)](https://asciinema.org/a/gn988HUYUv0te7dRTxYyeSSeN)

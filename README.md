@@ -5,19 +5,19 @@
 
 >`$ sudo npm link` 
 
-[![asciicast](https://asciinema.org/a/JvNJ0jWYRDpTIxpHRwaLYnwWD.svg)](https://asciinema.org/a/JvNJ0jWYRDpTIxpHRwaLYnwWD)
+[![asciicast](https://asciinema.org/a/306095.svg)](https://asciinema.org/a/306095)
 
 **Game "Brain Even"**
 
 >`$ brain-even`
 
-[![asciicast](https://asciinema.org/a/MmJLzdWULXnsAo8zhpOI3BFiV.svg)](https://asciinema.org/a/MmJLzdWULXnsAo8zhpOI3BFiV)
+[![asciicast](https://asciinema.org/a/306094.svg)](https://asciinema.org/a/306094)
 
 **Game "Brain Calc"**
 
 >`$ brain-calc`
 
-`[![asciicast](https://asciinema.org/a/MPYhBiuMhVYrci1uK2yp7F1QO.svg)](https://asciinema.org/a/MPYhBiuMhVYrci1uK2yp7F1QO)
+`[![asciicast](https://asciinema.org/a/306096.svg)](https://asciinema.org/a/306096)
 
 **Game "Brain GCD"**
 

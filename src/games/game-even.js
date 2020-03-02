@@ -8,8 +8,9 @@ const minNumber = 1;
 const maxNumber = 100;
 
 const genGameData = () => {
-  const question = genRandomNumber(minNumber, maxNumber);
+  let question = genRandomNumber(minNumber, maxNumber);
   const correctAnswer = isEven(question) ? 'yes' : 'no';
+  question = String(question);
 
   return {
     question,

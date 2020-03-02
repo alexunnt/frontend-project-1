@@ -2,12 +2,12 @@ import gameStart from '../index.js';
 import genRandomNumber from '../utils.js';
 
 const descriptionOfGame = 'What is the result of the expression?';
-const operators = ['+', '-', '*', '/'];
+const operators = ['+', '-', '*', '%'];
 const operations = [
   (a, b) => a + b,
   (a, b) => a - b,
   (a, b) => a * b,
-  (a, b) => a / b,
+  (a, b) => a % b,
 ];
 const min = 1;
 const max = 100;
@@ -15,10 +15,10 @@ const max = 100;
 const genGameData = () => {
   const firstNum = genRandomNumber(min, max);
   const secondNum = genRandomNumber(min, max);
-  const operatorNumber = genRandomNumber(0, operators.length);
+  const operatorIndex = genRandomNumber(0, operators.length - 1);
 
-  const question = `${firstNum} ${operators[operatorNumber]} ${secondNum}`;
-  const correctAnswer = `${operations[operatorNumber](firstNum, secondNum)}`;
+  const question = `${firstNum} ${operators[operatorIndex]} ${secondNum}`;
+  const correctAnswer = `${operations[operatorIndex](firstNum, secondNum)}`;
 
   return {
     question,

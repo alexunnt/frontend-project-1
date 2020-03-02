@@ -9,16 +9,16 @@ const lengthOfProgression = 10;
 const genGameData = () => {
   const firstNum = genRandomNumber(min, max);
   const step = genRandomNumber(min, max);
-  const coll = [];
+  const progression = [];
 
   for (let i = 0; i < lengthOfProgression; i += 1) {
-    coll.push(firstNum + step * i);
+    progression.push(firstNum + step * i);
   }
 
-  const space = genRandomNumber(0, lengthOfProgression - 1);
-  const correctAnswer = String(coll[space]);
-  coll[space] = '..';
-  const question = coll.join(' ');
+  const indexOfSpace = genRandomNumber(0, lengthOfProgression - 1);
+  const correctAnswer = String(progression[indexOfSpace]);
+  progression[indexOfSpace] = '..';
+  const question = progression.join(' ');
 
   return {
     question,

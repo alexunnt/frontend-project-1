@@ -1,5 +1,5 @@
 import gameStart from '../index.js';
-import randomiser from '../utils.js';
+import genRandomNumber from '../utils.js';
 
 const descriptionOfGame = 'Find the greatest common divisor of given numbers.';
 const min = 1;
@@ -13,9 +13,9 @@ const getGcdNum = (num1, num2) => {
   return getGcdNum(num2, num1 % num2);
 };
 
-const data = () => {
-  const firstNum = randomiser(min, max);
-  const secondNum = randomiser(min, max);
+const genGameData = () => {
+  const firstNum = genRandomNumber(min, max);
+  const secondNum = genRandomNumber(min, max);
 
   const question = `${firstNum} ${secondNum}`;
   const correctAnswer = String(getGcdNum(firstNum, secondNum));
@@ -27,7 +27,7 @@ const data = () => {
 };
 
 const runBrainGcd = () => {
-  gameStart(descriptionOfGame, data);
+  gameStart(descriptionOfGame, genGameData);
 };
 
 export default runBrainGcd;

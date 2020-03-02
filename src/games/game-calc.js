@@ -1,5 +1,5 @@
 import gameStart from '../index.js';
-import randomiser from '../utils.js';
+import genRandomNumber from '../utils.js';
 
 const descriptionOfGame = 'What is the result of the expression?';
 const operators = ['+', '-', '*', '/'];
@@ -12,10 +12,10 @@ const operations = [
 const min = 1;
 const max = 100;
 
-const data = () => {
-  const firstNum = randomiser(min, max);
-  const secondNum = randomiser(min, max);
-  const operatorNumber = randomiser(0, operators.length);
+const genGameData = () => {
+  const firstNum = genRandomNumber(min, max);
+  const secondNum = genRandomNumber(min, max);
+  const operatorNumber = genRandomNumber(0, operators.length);
 
   const question = `${firstNum} ${operators[operatorNumber]} ${secondNum}`;
   const correctAnswer = `${operations[operatorNumber](firstNum, secondNum)}`;
@@ -27,7 +27,7 @@ const data = () => {
 };
 
 const runBrainCalc = () => {
-  gameStart(descriptionOfGame, data);
+  gameStart(descriptionOfGame, genGameData);
 };
 
 export default runBrainCalc;

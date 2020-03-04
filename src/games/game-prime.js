@@ -1,4 +1,4 @@
-import gameStart from '../index.js';
+import runEngine from '../index.js';
 import genRandomNumber from '../utils.js';
 
 const descriptionOfGame = 'Answer "yes" if given number is prime. Otherwise answer "no".';
@@ -20,18 +20,17 @@ const isPrime = (number) => {
 };
 
 const genGameData = () => {
-  let question = genRandomNumber(min, max);
+  const question = genRandomNumber(min, max);
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
-  question = String(question);
 
   return {
-    question,
+    question: String(question),
     correctAnswer,
   };
 };
 
 const runBrainPrime = () => {
-  gameStart(descriptionOfGame, genGameData);
+  runEngine(descriptionOfGame, genGameData);
 };
 
 export default runBrainPrime;

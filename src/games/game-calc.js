@@ -1,4 +1,4 @@
-import gameStart from '../index.js';
+import runEngine from '../index.js';
 import genRandomNumber from '../utils.js';
 
 const descriptionOfGame = 'What is the result of the expression?';
@@ -27,7 +27,7 @@ const genGameData = () => {
 };
 
 const runBrainCalc = () => {
-  gameStart(descriptionOfGame, genGameData);
+  runEngine(descriptionOfGame, genGameData);
 };
 
 export default runBrainCalc;

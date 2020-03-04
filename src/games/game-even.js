@@ -1,4 +1,4 @@
-import gameStart from '../index.js';
+import runEngine from '../index.js';
 import genRandomNumber from '../utils.js';
 
 const isEven = (number) => (number % 2 === 0);
@@ -8,18 +8,17 @@ const minNumber = 1;
 const maxNumber = 100;
 
 const genGameData = () => {
-  let question = genRandomNumber(minNumber, maxNumber);
+  const question = genRandomNumber(minNumber, maxNumber);
   const correctAnswer = isEven(question) ? 'yes' : 'no';
-  question = String(question);
 
   return {
-    question,
+    question: String(question),
     correctAnswer,
   };
 };
 
 const runBrainEven = () => {
-  gameStart(descriptionOfGame, genGameData);
+  runEngine(descriptionOfGame, genGameData);
 };
 
 export default runBrainEven;

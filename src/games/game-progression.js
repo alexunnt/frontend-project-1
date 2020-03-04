@@ -4,8 +4,9 @@ import genRandomNumber from '../utils.js';
 const descriptionOfGame = 'What number is missing in the progression?';
 const min = 1;
 const max = 10;
+const lengthOfProgression = 10;
 
-const buildProgression = (firstNum, step, lengthOfProgression) => {
+const buildProgression = (firstNum, step) => {
   const progression = [];
 
   for (let i = 0; i < lengthOfProgression; i += 1) {
@@ -16,10 +17,9 @@ const buildProgression = (firstNum, step, lengthOfProgression) => {
 };
 
 const genGameData = () => {
-  const lengthOfProgression = 10;
   const firstNum = genRandomNumber(min, max);
   const step = genRandomNumber(min, max);
-  const progression = buildProgression(firstNum, step, lengthOfProgression);
+  const progression = buildProgression(firstNum, step);
 
   const hiddenMemberIndex = genRandomNumber(0, lengthOfProgression - 1);
   const correctAnswer = String(progression[hiddenMemberIndex]);
